@@ -8,14 +8,12 @@ import com.nayo.timemaker.R
  class BaseActivity : AppCompatActivity() {
 
 
+//      int layoutId
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView()
-
+//        setContentView(layoutId)
     }
 
-    fun setLayout(layoutId: Int): Int {
 
-        return  layoutId
-    }
 }
